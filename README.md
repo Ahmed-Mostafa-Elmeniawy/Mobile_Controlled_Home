@@ -1,2 +1,3 @@
 # Mobile_Controlled_Home
-Controlling the opening, closing and the light system of your home using an AVR ATMEGA32 and a bluetooth module
+Controlling the opening, closing and the light system of your home using an Android smartphone communicating with the AVR ATMEGA32 via a bluetooth module.
+The project starts with entering a password from a ten various passwords stored in an array. When the user enters the correct password the locker will be opened and the system will ask you if you want to turn the lights ON or OFF and it will be waiting for the user to enter his response. In case entering a wrong password, the user have a three number of tries maximum and the alarm system will start for four seconds when the user consumes all his/her number of tries.
